@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import main_img from './images/about.jpg';
 import main_img_2 from './images/about-2.jpg';
+import img_1 from './images/img-1.jpg';
 
 // import './main.js';
 function App() {
@@ -293,7 +294,7 @@ function App() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src="images/img-1.jpg" alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more
@@ -311,7 +312,7 @@ function App() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src="images/img-2.jpg" alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more
@@ -329,7 +330,7 @@ function App() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src="images/img-3.jpg" alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more
