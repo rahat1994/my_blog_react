@@ -31,7 +31,7 @@ export default function Blogs() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1}/>
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more
@@ -49,7 +49,7 @@ export default function Blogs() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1}/>
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more
@@ -67,7 +67,7 @@ export default function Blogs() {
                   <div className="col-md-12">
                     <div className="article">
                       <a href="blog.html" className="blog-img">
-                        <img className="img-responsive" src={img_1} alt="html5 bootstrap by colorlib.com" />
+                        <img className="img-responsive" src={img_1}/>
                         <div className="overlay" />
                         <div className="link">
                           <span className="read">Read more

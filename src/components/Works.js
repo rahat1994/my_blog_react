@@ -1,9 +1,9 @@
 import React from 'react';
-import main_img from '../images/about.jpg';
+import main_img from '../images/work-1.jpg';
 // import main_img_2 from './images/about-2.jpg';
 
 // import './main.js';
-export default function Services() {
+export default function Works() {
   return (
     
     <div id="colorlib-work">
@@ -27,7 +27,7 @@ export default function Services() {
             <div className="row">
               <div className="col-md-12">
                 <div className="work-entry animate-box">
-                  <a href="work.html" className="work-img" style={{backgroundImage: 'url(images/work-1.jpg)'}}>
+                  <a href="work.html" className="work-img" style={{backgroundImage: 'url(${main_img})'}}>
                     <div className="display-t">
                       <div className="work-name">
                         <h2>Pursuing Best</h2>

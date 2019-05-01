@@ -18,7 +18,7 @@ export default function About() {
                 <img className="img-responsive about-img" src={main_img}/>
                 </div>
                 <div className="item">
-                <img className="img-responsive about-img" src={main_img_2} alt="html5 bootstrap template by colorlib.com" />
+                <img className="img-responsive about-img" src={main_img_2} />
                 </div>
             </div>
             </div>
